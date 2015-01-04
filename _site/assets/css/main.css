@@ -574,7 +574,7 @@ header {
 html, body {
   height: 100%; }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   header {
     height: auto;
     background: url(../img/geo2.jpg) center center; }
@@ -617,7 +617,7 @@ footer {
           -o-transform: scale(1.05);
           transform: scale(1.05); }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   footer {
     background: url(../img/geo2.jpg) center center; } }
 @media (max-width: 640px) {
