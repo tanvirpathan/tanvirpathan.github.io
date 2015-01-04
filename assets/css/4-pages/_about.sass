@@ -1,0 +1,33 @@
+.wrapper
+	overflow-x: hidden
+
+.titleproblem
+	h3
+		font-size: 20px	
+		color: $bg2-color
+		letter-spacing: 2px
+		
+.face-lockup
+	max-width: 780px
+	+display(flex)
+	margin: 0 auto
+	+align-items(center)
+	+justify-content(space-around)
+	
+	.face-img
+		+size(150px)
+		background: url(/assets/img/face.png)
+
+.blurb
+	max-width: 620px
+	padding: 0 15px
+	margin: 50px auto 50px
+	text-align: center
+	font-size: 17px
+	font-weight: 300px
+	a
+		color: $accent
+		&:hover
+			color: $accent-bold
+		
+		

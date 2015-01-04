@@ -1,0 +1,37 @@
+<section class="section-experience">
+	<div class="titleproblem wow fadeInLeft">
+		<h3 id="experience">Experience</h3>
+	</div>
+	<div class="experience-mobile-nav">
+	{% for experience in site.data.settings.experience %}
+		<span></span>
+	{%  endfor %}
+	</div>
+		
+	<div class="experience-belt wow zoomInUp">
+		{% for experience in site.data.settings.experience %}
+		<div class="experience-unit">
+			<div class="experience-picture">
+				<strong class="experience-position">{{ experience.position }}</strong>
+				<em class="experience-date">{{ experience.date }}</em>
+			</div>
+			<div class="experience-content">	
+				<p>{{ experience.quote }}</p>	
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+	
+	
+	<div class="experience-control">
+		<div class="experience-control-next">{% include icon-next.html%}</div>
+		<div class="experience-control-prev">{% include icon-prev.html%}</div>
+	</div>
+	<div class="experiences-logos wow zoomInUp">
+		{% for experience in site.data.settings.experience %}
+		<img class="experience-logo" src="assets/img/experiences/{{ experience.logo }}" align="{{ experience.logo }}">
+		{% endfor %}
+	</div>
+	
+	
+</section>
