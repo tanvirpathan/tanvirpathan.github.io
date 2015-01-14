@@ -14,7 +14,7 @@ experience:
   logo: 'logo1.png'}
 - {position: 'Author and Illustrator',
   date: 'Date: Sept./2012 - Dec./2013',
-  quote: '<p>Utilizing high proficiency in English literature, I produced a fairy tale catering to children between ages 4-12. Using a 3D modelling software (Daz Studio Pro) in collaboration with Photoshop, full-page images of characters and scenery were created to enhance the storyline. Both text and images were stitched together and printed to create the final product. </p>',
+  quote: '<p>Utilizing high proficiency in English literature, I produced a fairy tale catering to children between ages 4-12. Using a 3D modelling software (Daz Studio Pro) in collaboration with Photoshop, full-page images of characters and scenery were created to enhance the storyline. </p>',
   logo: 'logo2.png'}
 - {position: 'Math and English Tutor',
   date: 'Date: Nov./2011 - May/2013',
@@ -26,7 +26,7 @@ experience:
   logo: 'logo4.png'}
 - {position: 'Mentorship Developer',
   date: 'Date: Feb./2011 – Sept./2011',
-  quote: '<p>I helped smooth the transition into high school and the IBMYP (International Baccalaureate) program for incoming freshmen. I introduced important concepts of the program to the group that I was given responsibility over. In addition, I planned and executed cheers and interactive activities for my group throughout the day-long conference.</p>',
+  quote: '<p>I helped smooth the transition into high school and the IBMYP (International Baccalaureate) program for incoming freshmen. I introduced important concepts of the program to the group that I was given responsibility over. </p>',
   logo: 'logo5.png'}
 - {position: 'Table Tennis',
   date: 'Date: Oct./2011 - March/2014',
