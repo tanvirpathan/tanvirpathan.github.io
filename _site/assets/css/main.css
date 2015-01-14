@@ -950,7 +950,7 @@ h3 strong {
       margin-bottom: 20px;
       text-align: center; }
     .experience-belt .experience-unit.active-experience .experience-content {
-      padding: 0px 30px;
+      padding: 0px 20px 20px auto;
       max-width: 600px;
       text-align: center;
       margin: 0px auto; }
