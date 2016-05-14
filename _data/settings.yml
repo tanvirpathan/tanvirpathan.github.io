@@ -8,28 +8,34 @@ projects:
 
 
 experience:
-- {position: 'Technical Executive',
-  date: 'Date: May/2013 - Nov./2013',
+- {position: 'Quality Assurance Engineer',
+  date: 'Date: Jan/2016 - April/2016',
+  location: 'Connected Labs',
   quote: '<p>I designed posters, videos and set the audio/visual hardware that were used for guest speakers and presentations for the conference. Additionally, I collaborated with various executive members to ensure effective communication in order to execute a successful conference. </p>',
   logo: 'logo1.png'}
 - {position: 'Author and Illustrator',
   date: 'Date: Sept./2012 - Dec./2013',
+  location: 'Connected Labs',
   quote: '<p>Utilizing high proficiency in English literature, I produced a fairy tale catering to children between ages 4-12. Using a 3D modelling software (Daz Studio Pro) in collaboration with Photoshop, full-page images of characters and scenery were created to enhance the storyline. </p>',
   logo: 'logo2.png'}
 - {position: 'Math and English Tutor',
   date: 'Date: Nov./2011 - May/2013',
+  location: 'Connected Labs',
   quote: '<p>I tutored children from ages 5-12 in both Math and English, which provided me the opportunity to work alongside teachers from which I gained valuable leadership and communications skills. </p>',
   logo: 'logo3.png'}
 - {position: 'Game Developer',
   date: 'Date: Feb./2012 - May/2012',
+  location: 'Connected Labs',
   quote: '<p>As the final project of the computer science course, I created a game using Java with 1000+ lines of efficient code. This resulted in an enjoyable and interactive game incorporating complex algorithms, loops, arrays and coordinate systems.</p>',
   logo: 'logo4.png'}
 - {position: 'Mentorship Developer',
   date: 'Date: Feb./2011 – Sept./2011',
+  location: 'Connected Labs',
   quote: '<p>I helped smooth the transition into high school and the IBMYP (International Baccalaureate) program for incoming freshmen. I introduced important concepts of the program to the group that I was given responsibility over. </p>',
   logo: 'logo5.png'}
 - {position: 'Table Tennis',
   date: 'Date: Oct./2011 - March/2014',
+  location: 'Connected Labs',
   quote: '<p>I played on the school table tennis team for 3 years. I began as a back up player and gradually improved to become one of the best players on the team in my final year. During my time on the team, I was given the opportunity to play during the season and in ROPSSAA tournaments.</p>',
   logo: 'logo6.png'}
   
