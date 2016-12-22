@@ -1,0 +1,254 @@
+html, body, h1, #something, #wrapper, #somethingelse {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: menlo;
+	src: url(Menlo-Regular.ttf);
+}
+
+#wrapper {
+  	position: relative;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+
+}
+.section-title {
+	position: relative;
+  	display: flex;
+  	justify-content: center;
+  	font-family: menlo;
+  	font-size: 35px;
+  	padding-top: 20px;
+  	color: #f7f7f7;
+  	letter-spacing: 5px;
+  	z-index: 100;
+}
+#me {
+	height: 100%;
+	width: 100%;
+	background-image:url("../img/myself.jpg"); 
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+#about-me-text {
+	
+	padding-right: 30px;
+	padding-left: 30px;
+	color: #f7f7f7;
+	font-size: 35px;
+	line-height: 50px;
+	font-family: menlo;
+	text-align: right;
+	width: 50%;
+	float: right;
+  	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+
+}
+
+#experiences {
+	height: 970px;
+
+	width: 100%;
+	background-color: #212121;
+	margin: 0;
+/*	text-align: center;
+*/	z-index: 100;
+}
+
+.experiences-text {
+
+  	text-align: left;
+  	
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 20px;
+	color: #f7f7f7;
+	line-height: 30px;
+	font-family: menlo;	
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    border-style: solid;
+}
+#contact-text {
+	display: block;
+	position: relative;
+	font-size: 30px;
+	color: #7fc930;
+	text-align: center;
+	bottom: 120px;
+	z-index: 100;
+}
+.icon {
+	
+	position: relative;
+	font-size: 30px;
+	color: #f7f7f7;
+	text-align: center;
+	letter-spacing: 17px;
+	top: 150px;
+	z-index: 100;
+}
+
+#text {
+  	color: #f7f7f7;
+	font-family: menlo;
+	z-index: 100;
+	position: relative;
+}
+strong {
+	color: #7fc930
+}
+.cell-container {
+	padding-top: 70px;
+	
+
+}
+.cell-flex {
+	display: flex; 
+	width: 100%; 
+	height: 400px;
+	flex-wrap: wrap; 
+
+	/*background-color: #212121;*/
+}
+.cell {
+	flex: 1 0 33%; 
+	height: 100%; 
+	padding-bottom: 30px; 
+
+	/*background-color: #212121;*/
+	
+
+}
+.cell div {
+	margin: 20px 20px 0 20px; 
+	border-radius: 25px; 
+
+	background:cover; 
+	height: 100%;
+	background-repeat: no-repeat;
+
+	
+
+
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid #7fc930; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: 5px; /* Adjust as needed */
+	animation: 
+		typing 2.0s steps(40, end),
+		blink-caret .75s step-end infinite;
+
+}
+
+/* The typing effect */
+@keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: #7fc930; }
+}
+
+#particles-js2 {
+	width: 100%;
+	height: 100%;
+	background-color: #212121;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+#particles-js3 {
+	width: 100%;
+	height: 100%;
+	background-color: #212121;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0;
+
+	z-index: -100;
+	
+}
+ 
+
+@media (max-width : 1151px) { 
+	.cell {
+		flex:1 0 50%;
+	}
+	#about-me-text {
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.cell-container {
+		padding-top: 100px;
+	}
+	#experiences {
+		height: 1420px;
+	}
+
+	
+}
+
+@media (max-device-width : 750px) { 
+	.cell {
+		flex:1 0 100%;
+	}
+	#about-me-text {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.cell-container {
+		padding-top: 160px;
+	}
+	#experiences {
+		height: 2750px;
+	}
+		
+}
+@media (max-width : 750px) { 
+	.cell {
+		flex:1 0 100%;
+	}
+	#about-me-text {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.cell-container {
+		padding-top: 140px;
+	}
+	#experiences {
+		height: 2750px;
+	}
+		
+}
+
+
+
+
+
+
+
