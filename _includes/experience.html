@@ -12,8 +12,10 @@
 		{% for experience in site.data.settings.experience %}
 		<div class="experience-unit">
 			<div class="experience-picture">
+				<strongem class="experience-location">{{ experience.location }}</strongem>
 				<strong class="experience-position">{{ experience.position }}</strong>
 				<em class="experience-date">{{ experience.date }}</em>
+
 			</div>
 			<div class="experience-content">	
 				<p>{{ experience.quote }}</p>	

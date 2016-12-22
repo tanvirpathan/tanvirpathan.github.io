@@ -8,30 +8,43 @@ projects:
 
 
 experience:
+
 - {position: 'some shit',
   date: 'Date: May/2013 - Nov./2013',
   quote: '<p>I designed posters, videos and set the audio/visual hardware that were used for guest speakers and presentations for the conference. Additionally, I collaborated with various executive members to ensure effective communication in order to execute a successful conference. </p>',
+
+- {position: 'Quality Assurance Engineer',
+  date: 'Date: Jan/2016 - April/2016',
+  location: 'Connected Labs',
+  quote: '<p>I tested a variety of different software applications and hardware devices using multiple platforms including iOS, tvOS, Android and Web. In addition, I wrote test scripts using Selenium Web driver and Calabash Android in order to automate web and app testing in adherence to client demands. Through the use of Swagger’s framework, I gained experience in API testing for web applications. Similarly, I built upon my background in Pivotal Tracker and Bugzilla.</p>',
   logo: 'logo1.png'}
-- {position: 'Author and Illustrator',
-  date: 'Date: Sept./2012 - Dec./2013',
-  quote: '<p>Utilizing high proficiency in English literature, I produced a fairy tale catering to children between ages 4-12. Using a 3D modelling software (Daz Studio Pro) in collaboration with Photoshop, full-page images of characters and scenery were created to enhance the storyline. </p>',
-  logo: 'logo2.png'}
+- {position: 'Quality Assurance Manager',
+  date: 'Date: March/2015 - Aug/2015',
+  location: 'Obero Solutions',
+  quote: '<p>Over the course of a term, I created Obero Solutions web application testing system. Each new application was tested for bugs and reviewed to ensure compliance to client needs after each sprint. Alongside this project, I developed Obero Solutions Business Requirement and Build Release documents for their Incentive Compensation Management web application while working closely with our clientele and the primary development team.</p>',
+  logo: 'logo6.png'}
+- {position: 'iOS Game Development',
+  date: 'Date: Jan/2016 - Present',
+  location: 'Personal Project',
+  quote: '<p> I used obj-c to create a reaction based game involving UIGestureRecognizers, SpriteKit Particle Emitters and Facebooks POP Animation Engine. Please check it out on my github page! </p>',
+  logo: 'logo4.png'}
 - {position: 'Math and English Tutor',
   date: 'Date: Nov./2011 - May/2013',
+  location: 'Learna',
   quote: '<p>I tutored children from ages 5-12 in both Math and English, which provided me the opportunity to work alongside teachers from which I gained valuable leadership and communications skills. </p>',
   logo: 'logo3.png'}
-- {position: 'Game Developer',
-  date: 'Date: Feb./2012 - May/2012',
-  quote: '<p>As the final project of the computer science course, I created a game using Java with 1000+ lines of efficient code. This resulted in an enjoyable and interactive game incorporating complex algorithms, loops, arrays and coordinate systems.</p>',
-  logo: 'logo4.png'}
 - {position: 'Mentorship Developer',
   date: 'Date: Feb./2011 – Sept./2011',
+  location: 'Turner Fenton SS',
   quote: '<p>I helped smooth the transition into high school and the IBMYP (International Baccalaureate) program for incoming freshmen. I introduced important concepts of the program to the group that I was given responsibility over. </p>',
   logo: 'logo5.png'}
-- {position: 'Table Tennis',
-  date: 'Date: Oct./2011 - March/2014',
-  quote: '<p>I played on the school table tennis team for 3 years. I began as a back up player and gradually improved to become one of the best players on the team in my final year. During my time on the team, I was given the opportunity to play during the season and in ROPSSAA tournaments.</p>',
-  logo: 'logo6.png'}
+- {position: 'Course Work',
+  date: 'Date: Sept/2014 - Present',
+  location: 'University of Waterloo',
+  quote: '<p>• <strong> Algorithms and Data Structures: </strong> Learned various efficient sorting and graphing algorithms along with multiple data structures 
+  <br>• <strong>Engineering Design with Embedded Systems:</strong> Studied SDLC and Android (java) development <br>
+  • <strong>Digital Circuits and Systems:</strong> Experience with Altera FPGAs, along with state machines and VHDL programming </p>',
+  logo: 'logo2.png'}
   
 
 
