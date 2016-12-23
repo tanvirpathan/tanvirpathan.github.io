@@ -228,6 +228,9 @@ strong {
 	#experiences {
 		height: 1440px;
 	}
+	#me {
+		background-attachment: scroll;
+	}
 
 	
 }
@@ -246,6 +249,9 @@ strong {
 	#experiences {
 		height: 2770px;
 	}
+	#me {
+		background-attachment: scroll;
+	}
 		
 }
 @media (max-width : 750px) { 
@@ -261,6 +267,9 @@ strong {
 	}
 	#experiences {
 		height: 2770px;
+	}
+	#me {
+		background-attachment: scroll;
 	}
 		
 }
