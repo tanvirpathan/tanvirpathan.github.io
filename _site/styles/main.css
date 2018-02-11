@@ -1,4 +1,4 @@
-html, body, h1, #titlepage, #wrapper, #somethingelse {
+html, body, #titlepage, #wrapper, #somethingelse {
 	height: 100%;
 	width: 100%;
 	padding: 0;
@@ -34,6 +34,25 @@ html, body, h1, #titlepage, #wrapper, #somethingelse {
 	letter-spacing: 17px;
 	top: 220px;
 	z-index: 100;
+	-webkit-animation-delay: 0.75s;
+}
+#resume{
+	-webkit-animation-delay: 0.75s;
+}
+#facebook{
+	-webkit-animation-delay: 1s;
+}
+#twitter{
+	-webkit-animation-delay: 1.25s;
+}
+#github{
+	-webkit-animation-delay: 1.5s;
+}
+#linkedin{
+	-webkit-animation-delay: 1.75s;
+}
+#mail{
+	-webkit-animation-delay: 2s;
 }
 
 
